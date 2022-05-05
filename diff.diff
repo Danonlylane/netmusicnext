@@ -1,17 +1,15 @@
-{
-    "presets": ["next/babel"],
-    "plugins": [
-      [
-        "module-resolver",
-        {
-          "alias": {
-            "@/components": "./components",
-            "@/pages": "./pages",
-            "@/public": "./public",
-            "@/utils": "./utils"
-          }
-        }
-      ],
-+      ["styled-components"]
-    ]
-  }
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
++  async redirects() {
++    return [
++      {
++        source: '/',
++        destination: '/discover',
++        permanent: true,
++      },
++    ]
++  }
++}
+
+module.exports = nextConfig

@@ -67,27 +67,27 @@ export const footerImages = [
 export const discoverMenu = [
     {
         title: "推荐",
-        link: "/discover/recommend"
+        link: "/discover/c-pages/recommend"
     },
     {
         title: "排行榜",
-        link: "/discover/ranking"
+        link: "/discover/c-pages/ranking"
     },
     {
         title: "歌单",
-        link: "/discover/songs"
+        link: "/discover/c-pages/songs"
     },
     {
         title: "主播电台",
-        link: "/discover/djradio"
+        link: "/discover/c-pages/djradio"
     },
     {
         title: "歌手",
-        link: "/discover/artist"
+        link: "/discover/c-pages/artist"
     },
     {
         title: "新碟上架",
-        link: "/discover/album"
+        link: "/discover/c-pages/album"
     },
 ]
 

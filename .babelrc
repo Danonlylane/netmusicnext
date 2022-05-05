@@ -10,7 +10,9 @@
             "@/public": "./public",
             "@/utils": "./utils",
             "@/common": "./common",
-            "@/assets": "./assets"
+            "@/assets": "./assets",
+            "@/services": "./services",
+            "@/store": "./store"
           }
         }
       ],

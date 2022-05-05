@@ -71,3 +71,29 @@ yarn add styled-components
   }
 ```
 
+
+
+### 路由的重写
+
+将根目录重写为发现页，在  `next.config.js` 文件添加如下代码
+
+```diff
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
++  async redirects() {
++    return [
++      {
++        source: '/',
++        destination: '/discover',
++        permanent: true,
++      },
++    ]
++  }
++}
+
+module.exports = nextConfig
+```
+
+
+

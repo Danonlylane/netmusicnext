@@ -44,7 +44,7 @@ export const BannerControl = styled.div`
     position: absolute;
     width: 37px;
     height: 63px;
-    background-image: url(${require("@/assets/img/banner_sprite.png")});
+    
     background-color: transparent;
     cursor: pointer;
 
